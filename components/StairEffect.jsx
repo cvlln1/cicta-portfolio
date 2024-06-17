@@ -18,10 +18,9 @@ const StairEffect = () => {
             <Stairs />
         </div>
     </div>
-
   </AnimatePresence>
   
   );
-}
+};
 
 export default StairEffect
