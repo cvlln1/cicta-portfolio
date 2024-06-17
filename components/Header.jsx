@@ -22,7 +22,7 @@ const Header = () => {
                 <Link href="https://wa.me/5517981429334" target="_blank">
                     <Button>Wpp me!</Button>
                 </Link>
-                
+                <a href="http://"  rel="noopener noreferrer"></a>
             </div>
 
              {/* Navbar mobile */}
