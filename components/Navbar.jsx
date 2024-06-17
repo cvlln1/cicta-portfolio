@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const links = [
+const Links = [
     {
         name: "home",
         path: "/",
@@ -28,15 +28,17 @@ const Navbar = () => {
     console.log(pathname);
     return (
     <nav className="flex gap-8">
-        {links.map((link, index) => {
+        {Links.map((link, index) => {
             return (
-            <Link key={index} href={link.path} className={'${link.path === pathname ? "text-blue-500 border-b-2  border-blue-500 "} capitalize font-medium hover:text-blue-500 transition-all '}>
+            <Link href={link.path} key={index}  
+            className={`${link.path === pathname && "text-blue-500 border-b-2 border-blue-500"} capitalize font-medium hover:text-blue-500 transition-all`}>
                     {link.name}
                 
             </Link>
             );
     })}
-    </nav>);
+    </nav>
+    );
 };
 
 export default Navbar;
