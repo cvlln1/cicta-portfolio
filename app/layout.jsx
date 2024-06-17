@@ -4,6 +4,8 @@ import { Weight } from "lucide-react";
 
 // Componentes da Página
 import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
+import StairEffect from "@/components/StairEffect";
 
 // Definição de Fontes
 const poppins = Poppins({ 
@@ -22,7 +24,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={poppins.variable}>
       <Header />
-      {children}</body>
+      <StairEffect/>
+      <PageTransition>
+        {children}
+      </PageTransition>
+
+      
+      </body>
     </html>
   );
 }
