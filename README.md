@@ -1,7 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 Can i call this a portfolio?
 Idk. 
 
+Aplicação desenvolvida em Next.JS e Tailwindcss para fins educacionais
 By Yur1_a1
