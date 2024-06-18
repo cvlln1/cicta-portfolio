@@ -10,8 +10,9 @@ const Foto = () => {
         transition: {delay:2.1, duration: 1, ease: "easeIn"},
         }}>
         <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten">
-            <Image src="/imagesz/Eutbsemfundo.png" priority quality={100} fill alt="eu" 
-            className="object-contain rounded-full"/>
+        <img src="https://github.com/Yur1-a1.png" priority quality={100} alt="minha foto do gitHub" 
+        className="rounded-full w-[298px] h-[298px] largaco:w-[450px] largaco:h-[450px] "/>
+  
         </div>
     </motion.div>
   </div>
@@ -19,3 +20,4 @@ const Foto = () => {
 }
 
 export default Foto
+
