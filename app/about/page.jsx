@@ -28,7 +28,7 @@ import { motion } from "framer-motion";
 
 const about = {
   title: "Sobre Mim",
-  description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi reprehenderit eius quibusdam nemo, voluptatem sit reiciendis quod mollitia commodi maxime?",
+  description: "Sou o Yuri, tenho 19 anos e sou estudante de Ciência da Computação na UTFPR. Atualmente estou estudando desenvolvimento web com React.js e Next.js, além de estar aprendendo Node.js e Tailwindcss.",
   info: [
     {
       fieldName: "Name",
@@ -64,7 +64,7 @@ const about = {
 const education = {
   icon: '/assets/cap.svg',
   title:  "Minha educação",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reprehenderit eius quibusdam nemo, voluptatem sit reiciendis quod mollitia commodi maxime?",
+  description: "Estas foram as escolas por onde passei e o curso que estou cursando atualmente. ",
   items: [
     {
       Instituicao: "Etec Coronel Raphael Brandão",
@@ -85,7 +85,7 @@ const education = {
 
 const skills = {
   title: "Minhas habilidades",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reprehenderit eius quibusdam nemo, voluptatem sit reiciendis quod mollitia commodi maxime?",
+  description: "Estas são as competências que possuo atualmente. cada ícone representa uma linguagem ou ferramenta que tenho conhecimento.",
   
   skillList: [
   {
