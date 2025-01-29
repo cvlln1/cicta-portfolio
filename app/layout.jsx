@@ -10,7 +10,7 @@ import StairEffect from "@/components/StairEffect";
 // Definição de Fontes
 const poppins = Poppins({ 
   subsets: ["latin"], 
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"], 
+  weight: ["101", "201", "301", "401", "500", "600", "700", "800"], 
   variable: '--font-poppins'
 });
 
